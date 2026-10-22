@@ -16,6 +16,11 @@ docs/reserve-recordings/
 docs/reserve-screenshots/failure.png
 docs/comparison-screenshots/failure.png
 
+# Generated local verification reports.
+docs/asset-check.json
+docs/free-physics-check.json
+docs/production-smoke-check.json
+
 # Local environment overrides.
 .env
 .env.*

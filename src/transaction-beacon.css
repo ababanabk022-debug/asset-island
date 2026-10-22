@@ -1,0 +1,30 @@
+.transaction-beacon{position:absolute;left:0;top:0;z-index:3;display:flex;align-items:center;gap:8px;width:max-content;max-width:calc(100% - 16px);padding:9px 12px;border:1px solid #ffffffe0;border-radius:10px;background:#f8faf0e8;box-shadow:0 5px 20px #2e514c18;color:#496f4c;pointer-events:none;user-select:none;will-change:transform;backdrop-filter:blur(8px)}
+.transaction-beacon>span:nth-child(2){display:flex;flex-direction:column;gap:3px}
+.transaction-beacon small{font-size:9px;font-weight:400;letter-spacing:.8px;color:#7a9075}
+.transaction-beacon strong{font-size:13px;font-weight:600;line-height:1.2;font-variant-numeric:tabular-nums;white-space:nowrap}
+.transaction-beacon-arrow{font-size:19px;line-height:1}
+.transaction-beacon>i{position:absolute;left:50%;bottom:-5px;width:8px;height:8px;transform:translateX(-50%) rotate(45deg);background:#f8faf0;border-right:1px solid #ffffffb0;border-bottom:1px solid #ffffffb0}
+.transaction-beacon.expense{background:#fbf7ede8;color:#947345}
+.transaction-beacon.expense small{color:#a08c6b}
+.transaction-beacon.expense>i{background:#fbf7ed}
+@media(max-width:760px){.transaction-beacon{padding:8px 10px}.transaction-beacon strong{font-size:12px}}
+
+.transaction-beacon{
+  padding:11px 15px;border-radius:13px;background:#fffdf2ed;color:#365d43;
+  box-shadow:0 8px 25px #315b3b20,inset 0 1px 0 #fff;
+  border-color:#ffffffed;backdrop-filter:none;
+}
+.transaction-beacon small{font-size:10px;letter-spacing:.3px;color:#7a8b6d}
+.transaction-beacon strong{font-family:var(--font-numeric);font-size:17px;font-weight:500;letter-spacing:0}
+.transaction-beacon-arrow{display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#e9efda;color:#5e7c4e;font-size:19px}
+.transaction-beacon>i{background:#fffdf2}
+.transaction-beacon.expense{color:#8c6c3c;background:#fff9e9ed}
+.transaction-beacon.expense small{color:#9a835e}
+.transaction-beacon.expense .transaction-beacon-arrow{color:#967549;background:#f2e8d2}
+.transaction-beacon.expense>i{background:#fff9e9}
+@media(max-width:760px){
+  .transaction-beacon{padding:8px 11px;gap:7px}
+  .transaction-beacon strong{font-size:16px}
+  .transaction-beacon small{font-size:9px}
+  .transaction-beacon-arrow{width:23px;height:23px;font-size:16px}
+}

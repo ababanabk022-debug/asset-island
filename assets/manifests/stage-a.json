@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "version": "stage-a-1",
+  "generator": "scripts/build_samples.py",
+  "source": "assets/source/island-study.blend",
+  "blenderVersion": "5.2.0 LTS",
+  "units": "metres",
+  "runtimeUpAxis": "Y",
+  "license": "Original procedural assets authored for this project; no third-party assets.",
+  "scope": "Art candidates only; not a calibrated monetary volume scale.",
+  "assets": [
+    {
+      "id": "island-study",
+      "file": "island-study.glb",
+      "bytes": 3927160,
+      "sha256": "ffb064d727bb4d1d5c8218ff2dbc0f64a1525d5e061c80f69bf62fee3a9a3539",
+      "triangles": 95422,
+      "dimensionsBlenderXYZ": [
+        10.605768,
+        11.165348,
+        6.236147
+      ],
+      "dimensionsGltfXYZ": [
+        10.605768,
+        6.236147,
+        11.165348
+      ],
+      "materials": [
+        "Dark wood joints",
+        "Forged fittings",
+        "Honey oak",
+        "Muted sea green roof",
+        "Oak end grain",
+        "Palm leaf 0",
+        "Palm leaf 1",
+        "Palm leaf 2",
+        "Submerged limestone - sculpted coast",
+        "Warm ivory sand - sculpted coast",
+        "Warm linen canopy",
+        "Warm weathered limestone",
+        "Warm weathered limestone - sculpted coast"
+      ],
+      "anchor": "world origin; glTF Y-up; smaller white sand land, narrow shore, tapered submerged island",
+      "animations": [],
+      "source": "assets/source/island-terrain-0.8.blend",
+      "generator": "scripts/remodel-island-terrain.py",
+      "terrainVersion": "0.8"
+    },
+    {
+      "id": "sandstone",
+      "file": "sandstone.glb",
+      "bytes": 35856,
+      "sha256": "b370a5288948529df674f3c1f0c127aead7ae7ce97192599c4c81894499c582c",
+      "triangles": 108,
+      "dimensionsBlenderXYZ": [
+        0.8744333982467651,
+        0.7993907928466797,
+        0.7484554648399353
+      ],
+      "dimensionsGltfXYZ": [
+        0.8744333982467651,
+        0.7484554648399353,
+        0.7993907928466797
+      ],
+      "materials": [
+        "Original layered coastal sandstone"
+      ],
+      "anchor": "bottom center",
+      "animations": [],
+      "source": "assets/source/sandstone-coastal.blend",
+      "generator": "scripts/sculpt-sandstone.py"
+    },
+    {
+      "id": "ore",
+      "file": "ore.glb",
+      "bytes": 78076,
+      "sha256": "f964c1c8010ec4fcfdcfa129897b8ac4de27fbf0c88fe036748db43065a0bf1d",
+      "triangles": 1260,
+      "dimensionsBlenderXYZ": [
+        0.8958,
+        0.7723,
+        0.7139
+      ],
+      "dimensionsGltfXYZ": [
+        0.8958,
+        0.7139,
+        0.7723
+      ],
+      "materials": [
+        "Blue grey mineral",
+        "Pale mineral seams"
+      ],
+      "anchor": "bottom center",
+      "animations": []
+    },
+    {
+      "id": "crate",
+      "file": "crate.glb",
+      "bytes": 506348,
+      "sha256": "c1ed3f6502ea120a61c2e76c89fd49b276295ade9cca56bb637627dba00bc3a3",
+      "triangles": 6692,
+      "dimensionsBlenderXYZ": [
+        0.855,
+        0.8325,
+        0.7365
+      ],
+      "dimensionsGltfXYZ": [
+        0.855,
+        0.7365,
+        0.8325
+      ],
+      "materials": [
+        "Dark wood joints",
+        "Forged fittings",
+        "Honey oak",
+        "Oak end grain"
+      ],
+      "anchor": "bottom center",
+      "animations": []
+    }
+  ]
+}

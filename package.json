@@ -1,0 +1,42 @@
+{
+  "name": "time-island-rebuild",
+  "private": true,
+  "version": "0.9.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5186 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "assets:sync": "node scripts/sync-assets.mjs",
+    "predev": "npm run assets:sync",
+    "build": "npm run assets:sync && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5187 --strictPort",
+    "test": "node scripts/test-reserve.mjs && node scripts/test-ledger.mjs && node scripts/test-reserve-presentation.mjs && node scripts/test-free-reserve-physics.mjs && node scripts/test-comparison.mjs && node scripts/test-comparison-envelope.mjs && node scripts/test-sound.mjs",
+    "test:art": "node scripts/art-audio-browser-check.mjs",
+    "test:browser": "node scripts/product-browser-check.mjs",
+    "test:performance": "node scripts/diagnose-performance.mjs docs/performance-0.9.json",
+    "test:continuous": "node scripts/playable-browser-check.mjs"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.12.0",
+    "@fontsource-variable/noto-sans-sc": "5.3.1",
+    "@react-three/fiber": "9.8.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "eslint": "10.12.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "17.13.0",
+    "playwright": "1.64.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.2",
+    "vite": "8.3.4"
+  }
+}

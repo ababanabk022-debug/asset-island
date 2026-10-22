@@ -1,0 +1,31 @@
+React reconciler bundled inside @react-three/fiber 9.8.1
+
+The exact embedded reconciler version is not stated in a standalone installed
+package.json. It is part of the installed Fiber distribution, not a separately
+resolved package-lock entry. The original source notices below identify Meta
+Platforms, Inc. and affiliates and the MIT license.
+
+The full Meta MIT license is provided without alteration in
+react-reconciler-bundled-LICENSE.txt, copied from installed react 19.3.0/LICENSE.
+
+Source: node_modules/@react-three/fiber/react-reconciler/index.js
+
+/**
+ * @license React
+ * react-reconciler.production.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-reconciler.development.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */

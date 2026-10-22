@@ -1,0 +1,22 @@
+node_modules/
+.npm-cache/
+.browser-tools/
+dist/
+delivery/
+/sites/
+public/generated/
+*.blend1
+*.log
+__pycache__/
+*.pyc
+
+# Local recordings and transient failure captures are not release inputs.
+docs/*.webm
+docs/reserve-recordings/
+docs/reserve-screenshots/failure.png
+docs/comparison-screenshots/failure.png
+
+# Local environment overrides.
+.env
+.env.*
+!.env.example

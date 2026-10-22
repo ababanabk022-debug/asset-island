@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "version": "reserve-v2",
+  "source": "assets/source/gold-reserve.blend",
+  "generator": "scripts/build_gold.py",
+  "units": "metres",
+  "runtimeUpAxis": "Y",
+  "license": "Original geometry authored for this project.",
+  "sandstoneVolume": 0.33714912242598377,
+  "goldVolume": 3.3714909567698723,
+  "goldToSandstoneVolume": 9.999999206612305,
+  "runtimeScale": 0.45,
+  "assets": [
+    {
+      "id": "gold",
+      "file": "gold.glb",
+      "bytes": 37936,
+      "sha256": "72d4f81623de933254dba18a8d6ee11a35eae9873a548e2244cda1fe469058a5",
+      "dimensionsGltfXYZ": [
+        2.1667,
+        1.61403,
+        1.7442
+      ],
+      "triangles": 342,
+      "materials": [
+        "Warm gold",
+        "Champagne facet",
+        "Deep gold facet"
+      ],
+      "animations": [],
+      "anchor": "bottom center"
+    }
+  ]
+}

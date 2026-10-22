@@ -1,0 +1,345 @@
+{
+  "project": "time-island-rebuild",
+  "projectVersion": "0.9.0",
+  "checkedAt": "2026-10-20",
+  "method": "All non-dev package-lock packages, including type-only production transitive dependencies; installed versions checked. License bytes copied without alteration. Optional peers not installed are excluded. Fiber license is the original official v9.8.1 tag file supplied by the root agent.",
+  "packageLockSha256": "92473f309da4674a329a88f7695155664cacd027ba7639deb453bcc92bcaedbc",
+  "packages": [
+    {
+      "name": "@babel/runtime",
+      "version": "7.29.10",
+      "license": "MIT",
+      "packagePath": "node_modules/@babel/runtime",
+      "packageIntegrity": "sha512-NpugTzbKgGrNe45Ui32cN8vCFFMxVtP/9rtfwv0nP5FRDAjvYBxJcLVpYA9mr1jxP6cnIT7x9LUzuDTbWYYNRA==",
+      "repository": "https://github.com/babel/babel.git",
+      "files": [
+        {
+          "path": "babel-runtime-7.29.10-LICENSE.txt",
+          "source": "node_modules/@babel/runtime/LICENSE",
+          "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "@dimforge/rapier3d-compat",
+      "version": "0.12.0",
+      "license": "Apache-2.0",
+      "packagePath": "node_modules/@dimforge/rapier3d-compat",
+      "packageIntegrity": "sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==",
+      "repository": "https://github.com/dimforge/rapier.js",
+      "files": [
+        {
+          "path": "dimforge-rapier3d-compat-0.12.0-LICENSE.txt",
+          "source": "node_modules/@dimforge/rapier3d-compat/LICENSE",
+          "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "@fontsource-variable/noto-sans-sc",
+      "version": "5.3.1",
+      "license": "OFL-1.1",
+      "packagePath": "node_modules/@fontsource-variable/noto-sans-sc",
+      "packageIntegrity": "sha512-UB96JJ17HyD5ehEU7Em0hDdh7fvTMB4B4Hzmq5c4QaNwwSLqTrdM2S+coySeBqCkXwh0DxqXT0b0wMrmzorFpQ==",
+      "repository": "git+https://github.com/fontsource/font-files.git",
+      "files": [
+        {
+          "path": "../NotoSansSC-OFL.txt",
+          "source": "node_modules/@fontsource-variable/noto-sans-sc/LICENSE",
+          "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+        }
+      ],
+      "status": "Existing exact package license; upstream OFL is also distributed unchanged."
+    },
+    {
+      "name": "@react-three/fiber",
+      "version": "9.8.1",
+      "license": "MIT",
+      "packagePath": "node_modules/@react-three/fiber",
+      "packageIntegrity": "sha512-GbNP4r6F/gpclFKkLGHzXcuwFWAzLyKsmrQGcDuwK3wQnwLH6F1TfGtEYjHy8OQoGsajwT19B9jtVLLjjfH09w==",
+      "repository": "git+https://github.com/pmndrs/react-three-fiber.git",
+      "files": [
+        {
+          "path": "react-three-fiber-9.8.1-LICENSE.txt",
+          "source": "delivery/react-three-fiber-9.8.1-LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/pmndrs/react-three-fiber/v9.8.1/LICENSE",
+          "sha256": "9c35b5de7b7493a707fffe4eb23bd2f7f449153c1911f7c6eefb4e591fd5349a"
+        }
+      ],
+      "status": "Installed npm package omits LICENSE. Original full license obtained by the root agent from the official corresponding v9.8.1 source tag and copied without alteration."
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "packagePath": "node_modules/@types/react",
+      "packageIntegrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "files": [
+        {
+          "path": "types-react-19.3.0-LICENSE.txt",
+          "source": "node_modules/@types/react/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "@types/react-reconciler",
+      "version": "0.28.9",
+      "license": "MIT",
+      "packagePath": "node_modules/@types/react-reconciler",
+      "packageIntegrity": "sha512-HHM3nxyUZ3zAylX8ZEyrDNd2XZOnQ0D5XfunJF5FLQnZbHHYq4UWvW1QfelQNXv1ICNkwYhfxjwfnqivYB6bFg==",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "files": [
+        {
+          "path": "types-react-reconciler-0.28.9-LICENSE.txt",
+          "source": "node_modules/@types/react-reconciler/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "@types/webxr",
+      "version": "0.5.24",
+      "license": "MIT",
+      "packagePath": "node_modules/@types/webxr",
+      "packageIntegrity": "sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "files": [
+        {
+          "path": "types-webxr-0.5.24-LICENSE.txt",
+          "source": "node_modules/@types/webxr/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "license": "MIT",
+      "packagePath": "node_modules/base64-js",
+      "packageIntegrity": "sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==",
+      "repository": "git://github.com/beatgammit/base64-js.git",
+      "files": [
+        {
+          "path": "base64-js-1.5.1-LICENSE.txt",
+          "source": "node_modules/base64-js/LICENSE",
+          "sha256": "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "buffer",
+      "version": "6.0.3",
+      "license": "MIT",
+      "packagePath": "node_modules/buffer",
+      "packageIntegrity": "sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==",
+      "repository": "git://github.com/feross/buffer.git",
+      "files": [
+        {
+          "path": "buffer-6.0.3-LICENSE.txt",
+          "source": "node_modules/buffer/LICENSE",
+          "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "packagePath": "node_modules/csstype",
+      "packageIntegrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+      "repository": "https://github.com/frenic/csstype",
+      "files": [
+        {
+          "path": "csstype-3.2.3-LICENSE.txt",
+          "source": "node_modules/csstype/LICENSE",
+          "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "ieee754",
+      "version": "1.2.1",
+      "license": "BSD-3-Clause",
+      "packagePath": "node_modules/ieee754",
+      "packageIntegrity": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+      "repository": "git://github.com/feross/ieee754.git",
+      "files": [
+        {
+          "path": "ieee754-1.2.1-LICENSE.txt",
+          "source": "node_modules/ieee754/LICENSE",
+          "sha256": "18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "its-fine",
+      "version": "2.1.1",
+      "license": "MIT",
+      "packagePath": "node_modules/its-fine",
+      "packageIntegrity": "sha512-C5ZoVkeqSt0Aje0tzESO+iT/EQpNFNL39GkP7mCACtoZUFD6GcyerFCr6kp0ZtiII4W9HoYkY48Soy5xE/uHKw==",
+      "repository": "https://github.com/pmndrs/its-fine",
+      "files": [
+        {
+          "path": "its-fine-2.1.1-LICENSE.txt",
+          "source": "node_modules/its-fine/LICENSE",
+          "sha256": "643123eeb38f154d93cb8323e1289a648d3f343b411a9340453c010e325d0c82"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "packagePath": "node_modules/react",
+      "packageIntegrity": "sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==",
+      "repository": "https://github.com/react/react.git",
+      "files": [
+        {
+          "path": "react-19.3.0-LICENSE.txt",
+          "source": "node_modules/react/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "packagePath": "node_modules/react-dom",
+      "packageIntegrity": "sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==",
+      "repository": "https://github.com/react/react.git",
+      "files": [
+        {
+          "path": "react-dom-19.3.0-LICENSE.txt",
+          "source": "node_modules/react-dom/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "react-use-measure",
+      "version": "2.1.7",
+      "license": "MIT",
+      "packagePath": "node_modules/react-use-measure",
+      "packageIntegrity": "sha512-KrvcAo13I/60HpwGO5jpW7E9DfusKyLPLvuHlUyP5zqnmAPhNc6qTRjUQrdTADl0lpPpDVU2/Gg51UlOGHXbdg==",
+      "repository": "https://github.com/pmndrs/react-use-measure",
+      "files": [
+        {
+          "path": "react-use-measure-2.1.7-LICENSE.txt",
+          "source": "node_modules/react-use-measure/LICENSE",
+          "sha256": "1f9038eff8dbd6505a26f9d6830cc6da2b87ab1a9305d1100884986e9c11a31a"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "packagePath": "node_modules/scheduler",
+      "packageIntegrity": "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==",
+      "repository": "https://github.com/react/react.git",
+      "files": [
+        {
+          "path": "scheduler-0.28.0-LICENSE.txt",
+          "source": "node_modules/scheduler/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "suspend-react",
+      "version": "0.1.3",
+      "license": "MIT",
+      "packagePath": "node_modules/suspend-react",
+      "packageIntegrity": "sha512-aqldKgX9aZqpoDp3e8/BZ8Dm7x1pJl+qI3ZKxDN0i/IQTWUwBx/ManmlVJ3wowqbno6c2bmiIfs+Um6LbsjJyQ==",
+      "repository": "pmndrs/suspend-react",
+      "files": [
+        {
+          "path": "suspend-react-0.1.3-LICENSE.txt",
+          "source": "node_modules/suspend-react/LICENSE",
+          "sha256": "997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "three",
+      "version": "0.186.1",
+      "license": "MIT",
+      "packagePath": "node_modules/three",
+      "packageIntegrity": "sha512-blFeqb49wRCSGUGj7gtpfnSGHy2lwDk94RhUmS1c/hTby70kvChbWpkJ4Pm1390LqzzvTmzgXKHPEafJwCb8jA==",
+      "repository": "https://github.com/mrdoob/three.js",
+      "files": [
+        {
+          "path": "three-0.186.1-LICENSE.txt",
+          "source": "node_modules/three/LICENSE",
+          "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "use-sync-external-store",
+      "version": "1.7.0",
+      "license": "MIT",
+      "packagePath": "node_modules/use-sync-external-store",
+      "packageIntegrity": "sha512-6L+EeigHMQhdaIPNIFUKwfWJSwWFQ8gJbJ2DLOs5sDIegTwR9fRxvnM3uciHKjIZhFz+KAv2emhWMRvDmMcY8A==",
+      "repository": "https://github.com/react/react.git",
+      "files": [
+        {
+          "path": "use-sync-external-store-1.7.0-LICENSE.txt",
+          "source": "node_modules/use-sync-external-store/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    },
+    {
+      "name": "zustand",
+      "version": "5.0.15",
+      "license": "MIT",
+      "packagePath": "node_modules/zustand",
+      "packageIntegrity": "sha512-MpSEjRiBkA9crSYeOUH32rJC7SVqAbm0Fqcqge/bUi2PPoLcBWKOsG+C8mevmpr8TwXHBVkChbbJiyvkE+i/3A==",
+      "repository": "git+https://github.com/pmndrs/zustand.git",
+      "files": [
+        {
+          "path": "zustand-5.0.15-LICENSE.txt",
+          "source": "node_modules/zustand/LICENSE",
+          "sha256": "c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417"
+        }
+      ],
+      "status": "Exact original installed license copied."
+    }
+  ],
+  "bundled": [
+    {
+      "name": "react-reconciler",
+      "distributedWithin": "@react-three/fiber@9.8.1",
+      "license": "MIT",
+      "copyright": "Copyright (c) Meta Platforms, Inc. and affiliates.",
+      "files": [
+        "react-reconciler-bundled-LICENSE.txt",
+        "react-reconciler-bundled-NOTICE.txt"
+      ]
+    }
+  ],
+  "unverified": [
+    "Exact bundled react-reconciler package version is not independently installed; original Meta MIT notice is present."
+  ]
+}

@@ -1,0 +1,17 @@
+@react-three/fiber 9.8.1
+
+License: MIT
+Copyright (c) 2019-2025 Poimandres
+Author listed in the installed package: Paul Henschel (https://github.com/drcmda)
+Repository: https://github.com/pmndrs/react-three-fiber
+
+The installed npm package omits its LICENSE file. The corresponding official
+source tag contains the complete original notice and MIT license. The root
+agent retrieved that file, and it is copied unchanged alongside this notice:
+react-three-fiber-9.8.1-LICENSE.txt
+
+Official source: https://raw.githubusercontent.com/pmndrs/react-three-fiber/v9.8.1/LICENSE
+SHA-256: 9c35b5de7b7493a707fffe4eb23bd2f7f449153c1911f7c6eefb4e591fd5349a
+
+Bundled React reconciler code is identified and covered separately by
+react-reconciler-bundled-NOTICE.txt and react-reconciler-bundled-LICENSE.txt.

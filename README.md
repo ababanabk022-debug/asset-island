@@ -28,7 +28,7 @@ npm ci
 npm run dev
 ```
 
-打开 <http://127.0.0.1:5186/>。开发服务固定使用本机 5186 端口；已有服务占用该端口时会报错，不会自动换端口。
+启动后，按终端显示的本地地址打开应用。
 
 正式构建和预览：
 
@@ -37,7 +37,7 @@ npm run build
 npm run preview
 ```
 
-预览固定使用 <http://127.0.0.1:5187/>。`dist/` 是静态构建产物，需要通过 HTTP(S) 服务访问，不能直接双击 HTML 文件运行。`npm run build` 会先校验并同步 `assets/runtime/` 中的模型到 `public/generated/`。
+运行预览命令后，按终端显示的本地地址打开。`dist/` 是静态构建产物，需要通过 HTTP(S) 服务访问。`npm run build` 会先校验并同步 `assets/runtime/` 中的模型到 `public/generated/`。
 
 ## 验证
 
@@ -49,7 +49,7 @@ npm run build
 node scripts/check-glb.mjs
 ```
 
-浏览器专项检查使用 Playwright 和本机 Chrome，部分脚本要求开发服务已经运行；命令和端口约定可查看 `package.json` 与对应脚本。浏览器视口模拟不等于手机真机测试。3D 性能也取决于设备、浏览器和显卡。
+浏览器专项检查使用 Playwright 和 Chrome，部分脚本要求开发服务已经运行。浏览器视口模拟不等于手机真机测试。3D 性能取决于设备、浏览器和显卡。
 
 ## 项目结构
 
